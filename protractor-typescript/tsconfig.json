@@ -6,10 +6,11 @@
     "sourceMap": false,
     "declaration": false,
     "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "outDir": "tmp",
+    "types": ["node", "jasmine"]
   },
   "exclude": [
-    "node_modules",
-    "typings/globals"
+    "node_modules"
   ]
 }
