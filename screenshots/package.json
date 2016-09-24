@@ -1,0 +1,13 @@
+{
+  "name": "screenshots",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Craig Nishina <craig.nishina@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "image-diff": "^1.6.3",
+    "jasmine": "^2.5.2",
+    "mkdirp": "^0.5.1",
+    "protractor": "^4.0.9"
+  }
+}
