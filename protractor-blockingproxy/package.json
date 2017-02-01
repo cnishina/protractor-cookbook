@@ -1,0 +1,23 @@
+{
+  "name": "protractor-blockingproxy",
+  "version": "1.0.0",
+  "description": "protractor using blocking proxy",
+  "main": "index.js",
+  "scripts": {
+    "highlight": "protractor config.js --highlightDelay",
+    "logs": "protractor config.js --webDriverLogDir",
+    "normal": "protractor config.js",
+    "test": "exit 1"
+  },
+  "author": "Craig Nishina <craig.nishina@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "protractor": "^5.1.0",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.4"
+  }
+}

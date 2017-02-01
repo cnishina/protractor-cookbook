@@ -7,7 +7,6 @@
     "declaration": false,
     "removeComments": false,
     "noImplicitAny": false,
-    "outDir": "tmp",
     "types": ["jasmine", "node"]
   },
   "exclude": [
